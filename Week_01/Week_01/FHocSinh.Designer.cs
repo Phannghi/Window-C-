@@ -41,10 +41,6 @@
             this.btnXoa = new System.Windows.Forms.Button();
             this.btnSua = new System.Windows.Forms.Button();
             this.dgvwHocSinh = new System.Windows.Forms.DataGridView();
-            this.tenDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.diachiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cmndDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ngaySinhDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.hocSinhBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.btnGiangVien = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvwHocSinh)).BeginInit();
@@ -54,72 +50,77 @@
             // lblHoVaTen
             // 
             this.lblHoVaTen.AutoSize = true;
-            this.lblHoVaTen.Location = new System.Drawing.Point(52, 53);
+            this.lblHoVaTen.Location = new System.Drawing.Point(58, 66);
             this.lblHoVaTen.Name = "lblHoVaTen";
-            this.lblHoVaTen.Size = new System.Drawing.Size(64, 16);
+            this.lblHoVaTen.Size = new System.Drawing.Size(77, 20);
             this.lblHoVaTen.TabIndex = 0;
             this.lblHoVaTen.Text = "Ho va ten";
             // 
             // lblDiaChi
             // 
             this.lblDiaChi.AutoSize = true;
-            this.lblDiaChi.Location = new System.Drawing.Point(52, 108);
+            this.lblDiaChi.Location = new System.Drawing.Point(58, 135);
             this.lblDiaChi.Name = "lblDiaChi";
-            this.lblDiaChi.Size = new System.Drawing.Size(48, 16);
+            this.lblDiaChi.Size = new System.Drawing.Size(57, 20);
             this.lblDiaChi.TabIndex = 1;
             this.lblDiaChi.Text = "Dia chi";
             // 
             // lblCMND
             // 
             this.lblCMND.AutoSize = true;
-            this.lblCMND.Location = new System.Drawing.Point(52, 165);
+            this.lblCMND.Location = new System.Drawing.Point(58, 206);
             this.lblCMND.Name = "lblCMND";
-            this.lblCMND.Size = new System.Drawing.Size(47, 16);
+            this.lblCMND.Size = new System.Drawing.Size(56, 20);
             this.lblCMND.TabIndex = 2;
             this.lblCMND.Text = "CMND";
             // 
             // lblNgayThangNamSinh
             // 
             this.lblNgayThangNamSinh.AutoSize = true;
-            this.lblNgayThangNamSinh.Location = new System.Drawing.Point(52, 219);
+            this.lblNgayThangNamSinh.Location = new System.Drawing.Point(58, 274);
             this.lblNgayThangNamSinh.Name = "lblNgayThangNamSinh";
-            this.lblNgayThangNamSinh.Size = new System.Drawing.Size(132, 16);
+            this.lblNgayThangNamSinh.Size = new System.Drawing.Size(158, 20);
             this.lblNgayThangNamSinh.TabIndex = 3;
             this.lblNgayThangNamSinh.Text = "Ngay thang nam sinh";
             // 
             // tbxHoVaTen
             // 
-            this.tbxHoVaTen.Location = new System.Drawing.Point(204, 50);
+            this.tbxHoVaTen.Location = new System.Drawing.Point(230, 62);
+            this.tbxHoVaTen.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxHoVaTen.Name = "tbxHoVaTen";
-            this.tbxHoVaTen.Size = new System.Drawing.Size(200, 22);
+            this.tbxHoVaTen.Size = new System.Drawing.Size(224, 26);
             this.tbxHoVaTen.TabIndex = 1;
             // 
             // tbxCMND
             // 
-            this.tbxCMND.Location = new System.Drawing.Point(204, 162);
+            this.tbxCMND.Location = new System.Drawing.Point(230, 202);
+            this.tbxCMND.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxCMND.Name = "tbxCMND";
-            this.tbxCMND.Size = new System.Drawing.Size(200, 22);
+            this.tbxCMND.Size = new System.Drawing.Size(224, 26);
             this.tbxCMND.TabIndex = 3;
             // 
             // tbxDiaChi
             // 
-            this.tbxDiaChi.Location = new System.Drawing.Point(204, 105);
+            this.tbxDiaChi.Location = new System.Drawing.Point(230, 131);
+            this.tbxDiaChi.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.tbxDiaChi.Name = "tbxDiaChi";
-            this.tbxDiaChi.Size = new System.Drawing.Size(200, 22);
+            this.tbxDiaChi.Size = new System.Drawing.Size(224, 26);
             this.tbxDiaChi.TabIndex = 2;
             // 
             // dtpkrNgaySinh
             // 
-            this.dtpkrNgaySinh.Location = new System.Drawing.Point(204, 214);
+            this.dtpkrNgaySinh.Location = new System.Drawing.Point(230, 268);
+            this.dtpkrNgaySinh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dtpkrNgaySinh.Name = "dtpkrNgaySinh";
-            this.dtpkrNgaySinh.Size = new System.Drawing.Size(200, 22);
+            this.dtpkrNgaySinh.Size = new System.Drawing.Size(224, 26);
             this.dtpkrNgaySinh.TabIndex = 4;
             // 
             // btnThem
             // 
-            this.btnThem.Location = new System.Drawing.Point(55, 284);
+            this.btnThem.Location = new System.Drawing.Point(62, 355);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(75, 23);
+            this.btnThem.Size = new System.Drawing.Size(84, 29);
             this.btnThem.TabIndex = 5;
             this.btnThem.Text = "Them";
             this.btnThem.UseVisualStyleBackColor = true;
@@ -127,9 +128,10 @@
             // 
             // btnXoa
             // 
-            this.btnXoa.Location = new System.Drawing.Point(194, 284);
+            this.btnXoa.Location = new System.Drawing.Point(218, 355);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(75, 23);
+            this.btnXoa.Size = new System.Drawing.Size(84, 29);
             this.btnXoa.TabIndex = 6;
             this.btnXoa.Text = "Xoa";
             this.btnXoa.UseVisualStyleBackColor = true;
@@ -137,9 +139,10 @@
             // 
             // btnSua
             // 
-            this.btnSua.Location = new System.Drawing.Point(329, 284);
+            this.btnSua.Location = new System.Drawing.Point(370, 355);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnSua.Name = "btnSua";
-            this.btnSua.Size = new System.Drawing.Size(75, 23);
+            this.btnSua.Size = new System.Drawing.Size(84, 29);
             this.btnSua.TabIndex = 7;
             this.btnSua.Text = "Sua";
             this.btnSua.UseVisualStyleBackColor = true;
@@ -149,76 +152,37 @@
             // 
             this.dgvwHocSinh.AutoGenerateColumns = false;
             this.dgvwHocSinh.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvwHocSinh.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.tenDataGridViewTextBoxColumn,
-            this.diachiDataGridViewTextBoxColumn,
-            this.cmndDataGridViewTextBoxColumn,
-            this.ngaySinhDataGridViewTextBoxColumn});
             this.dgvwHocSinh.DataSource = this.hocSinhBindingSource;
-            this.dgvwHocSinh.Location = new System.Drawing.Point(428, 50);
+            this.dgvwHocSinh.Location = new System.Drawing.Point(482, 62);
+            this.dgvwHocSinh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.dgvwHocSinh.Name = "dgvwHocSinh";
             this.dgvwHocSinh.RowHeadersWidth = 51;
             this.dgvwHocSinh.RowTemplate.Height = 24;
-            this.dgvwHocSinh.Size = new System.Drawing.Size(440, 186);
+            this.dgvwHocSinh.Size = new System.Drawing.Size(495, 232);
             this.dgvwHocSinh.TabIndex = 11;
-            // 
-            // tenDataGridViewTextBoxColumn
-            // 
-            this.tenDataGridViewTextBoxColumn.DataPropertyName = "Ten";
-            this.tenDataGridViewTextBoxColumn.HeaderText = "Ten";
-            this.tenDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.tenDataGridViewTextBoxColumn.Name = "tenDataGridViewTextBoxColumn";
-            this.tenDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // diachiDataGridViewTextBoxColumn
-            // 
-            this.diachiDataGridViewTextBoxColumn.DataPropertyName = "Diachi";
-            this.diachiDataGridViewTextBoxColumn.HeaderText = "Diachi";
-            this.diachiDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.diachiDataGridViewTextBoxColumn.Name = "diachiDataGridViewTextBoxColumn";
-            this.diachiDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // cmndDataGridViewTextBoxColumn
-            // 
-            this.cmndDataGridViewTextBoxColumn.DataPropertyName = "Cmnd";
-            this.cmndDataGridViewTextBoxColumn.HeaderText = "Cmnd";
-            this.cmndDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.cmndDataGridViewTextBoxColumn.Name = "cmndDataGridViewTextBoxColumn";
-            this.cmndDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // ngaySinhDataGridViewTextBoxColumn
-            // 
-            this.ngaySinhDataGridViewTextBoxColumn.DataPropertyName = "NgaySinh";
-            this.ngaySinhDataGridViewTextBoxColumn.HeaderText = "NgaySinh";
-            this.ngaySinhDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.ngaySinhDataGridViewTextBoxColumn.Name = "ngaySinhDataGridViewTextBoxColumn";
-            this.ngaySinhDataGridViewTextBoxColumn.Width = 125;
             // 
             // hocSinhBindingSource
             // 
             this.hocSinhBindingSource.DataMember = "HocSinh";
             // 
-            // qLHocSinhDataSet
-            // 
-            // 
             // btnGiangVien
             // 
-            this.btnGiangVien.Location = new System.Drawing.Point(724, 284);
+            this.btnGiangVien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnGiangVien.Location = new System.Drawing.Point(720, 355);
+            this.btnGiangVien.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnGiangVien.Name = "btnGiangVien";
-            this.btnGiangVien.Size = new System.Drawing.Size(144, 23);
+            this.btnGiangVien.Size = new System.Drawing.Size(162, 29);
             this.btnGiangVien.TabIndex = 12;
             this.btnGiangVien.Text = "GiangVien";
-            this.btnGiangVien.UseVisualStyleBackColor = true;
+            this.btnGiangVien.UseVisualStyleBackColor = false;
             this.btnGiangVien.Click += new System.EventHandler(this.btnGiangVien_Click);
-            // 
-            // hocSinhTableAdapter
-            // 
             // 
             // FHocSinh
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(880, 330);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(1086, 540);
             this.Controls.Add(this.btnGiangVien);
             this.Controls.Add(this.dgvwHocSinh);
             this.Controls.Add(this.btnSua);
@@ -232,6 +196,7 @@
             this.Controls.Add(this.lblCMND);
             this.Controls.Add(this.lblDiaChi);
             this.Controls.Add(this.lblHoVaTen);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "FHocSinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FHocSinh";
